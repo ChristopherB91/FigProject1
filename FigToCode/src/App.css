@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Inria;
+  src: url(./assets/InriaSans-Regular.ttf);
+}
+.top-header {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+}
+
+.NavNames {
+  display: flex;
+  list-style: none;
+}
+
+.Icons {
+  display: flex;
+}
+
+.Icons p {
+  margin: 5px;
+}
+
+.NavNames li {
+  margin: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./assets/Shop&Theme.svg);
+  max-width: 100%;
+  height: 780px;
+  background-repeat: no-repeat;
+}
+
+.container p {
+  color: #ffff;
+  font-size: xx-large;
+  font-family: inter;
+}
+
+.container button {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 0;
+  padding: 8px 16px 8px 16px;
+}
+
+.Logo {
+  font-family: Inria;
+  font-size: larger;
+}
