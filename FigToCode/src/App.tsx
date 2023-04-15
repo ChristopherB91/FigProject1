@@ -1,12 +1,14 @@
-import { useState } from "react";
 import Header from "./components/Header";
+import Popular from "./components/Popular";
+import Products from "./components/Products";
 import "./App.css";
-import { Container } from "@mui/material";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Popular />
+      <Products />
     </div>
   );
 }
