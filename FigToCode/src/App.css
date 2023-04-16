@@ -115,17 +115,93 @@ img {
   flex-direction: row;
 }
 
-.ProdContainer{
-  margin: 5px
+.ProdContainer {
+  margin: 5px;
 }
 
-.ProdContent{
+.ProdContent {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.btndiv{
+.btndiv {
   display: flex;
   justify-content: center;
+}
+
+.Social-BG {
+  background-image: url(./assets/SocialMedia.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 325px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.Social-Imgs img {
+  margin-right: 25px;
+}
+
+.Seo {
+  max-width: 100%;
+  height: auto;
+}
+
+.News {
+  background-color: #ebfd36;
+  max-width: 100%;
+  height: 188px;
+  left: 0px;
+  top: 5633px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.News button {
+  color: white;
+  background-color: black;
+  width: 83px;
+  height: 48px;
+}
+
+input {
+  background-color: white;
+}
+
+.Email {
+  width: 419px;
+  height: 48px;
+  left: calc(50% - 419px / 2 + 26.5px);
+  top: calc(50% - 48px / 2 - 15px);
+  border: 1px solid #000000;
+  color: black;
+  margin-right: 10px;
+}
+
+label {
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+footer{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Info{
+  display: flex;
+  flex-direction: column;
+  color: grey;
 }
