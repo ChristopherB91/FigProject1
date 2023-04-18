@@ -1,4 +1,3 @@
-import bg from "../assets/Shop&Theme.svg";
 import "../App.css";
 
 function Header() {
