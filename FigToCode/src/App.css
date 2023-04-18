@@ -2,11 +2,11 @@
   font-family: Inria;
   src: url(./assets/InriaSans-Regular.ttf);
 }
+
 .top-header {
   color: white;
   background-color: black;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 body {
@@ -31,16 +31,12 @@ nav {
   list-style: none;
 }
 
-.Icons {
-  display: flex;
-}
-
-.Icons p {
-  margin: 5px;
+.Icons img{
+  padding: 5px;
 }
 
 .NavNames li {
-  margin: 5px;
+  padding: 5px;
 }
 
 img {
@@ -52,11 +48,13 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   background-image: url(./assets/Shop&Theme.svg);
-  background-size: 100%;
-  width: 100%;
-  height: 780px;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 780px;
 }
 
 .container p {
@@ -74,7 +72,7 @@ img {
 
 .Logo {
   font-family: Inria;
-  font-size: larger;
+  font-size: 34px;
 }
 
 .PopContainer {
@@ -85,11 +83,14 @@ img {
 }
 
 .PopImg1 {
-  margin-right: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .PopImg2 {
-  margin-left: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .BlkBtn {
@@ -132,17 +133,20 @@ img {
 
 .Social-BG {
   background-image: url(./assets/SocialMedia.svg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 325px;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .Social-Imgs img {
-  margin-right: 25px;
+  padding-right: 25px;
 }
 
 .Seo {
@@ -174,23 +178,16 @@ input {
 }
 
 .Email {
-  width: 419px;
+  width: 100%;
   height: 48px;
-  left: calc(50% - 419px / 2 + 26.5px);
-  top: calc(50% - 48px / 2 - 15px);
   border: 1px solid #000000;
   color: black;
   margin-right: 10px;
 }
 
-label {
-  color: red;
-}
-
 form {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
 }
 
 footer{
@@ -204,4 +201,32 @@ footer{
   display: flex;
   flex-direction: column;
   color: grey;
+}
+
+#FormTxt{
+  font-size: x-large;
+}
+
+@media screen and (max-width: 1200px) {
+  .PopImg1{
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Email{
+    width: 350px;
+  }
+
+  #FormTxt{
+    font-size: large;
+  }
+
+  p{
+    font-size: small;
+  }
+
+  b{
+    font-size: small;
+  }
 }
