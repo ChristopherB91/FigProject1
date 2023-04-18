@@ -4,7 +4,7 @@ export default function Newsletter() {
   return (
     <div className="News">
       <p>
-        <b style={{fontSize: 'x-large'}}>
+        <b id='FormTxt'>
           ÜYE OL VE HEMEN <br />
           %35 İNDİRİM KAZAN!
         </b>

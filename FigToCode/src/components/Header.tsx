@@ -1,3 +1,6 @@
+import Account from '../assets/Account-Icon.svg'
+import Cart from '../assets/Cart-Icon.svg'
+import Search from '../assets/Search-Icon.svg'
 import "../App.css";
 
 function Header() {
@@ -16,9 +19,9 @@ function Header() {
           <b>SHOP & THEME</b>
         </p>
         <b className="Icons">
-          <p>Search Icon</p>
-          <p>Account Icon</p>
-          <p>Cart Icon</p>
+          <img src={Search} alt="Search Icon" />
+          <img src={Account} alt="Account Icon" />
+          <img src={Cart} alt="Cart" />
         </b>
       </nav>
       <b className="container">

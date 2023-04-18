@@ -11,20 +11,25 @@ let store: {
   image: string;
 }[] = [
   {
-    name: "Jordans",
+    name: "Nike Blazer Young 2022",
     price: "1.250",
     type: "Günlük Ayakkabı",
     image: `${Shoe1}`,
   },
-  { name: "Nike", price: "1.250", type: "Günlük Ayakkabı", image: `${Shoe2}` },
   {
-    name: "Addidas",
+    name: "Nike Blazer Young 2022",
+    price: "1.250",
+    type: "Günlük Ayakkabı",
+    image: `${Shoe2}`,
+  },
+  {
+    name: "Nike Blazer Young 2022",
     price: "1.250",
     type: "Günlük Ayakkabı",
     image: `${Shoe3}`,
   },
   {
-    name: "New Balance",
+    name: "Nike Blazer Young 2022",
     price: "1.250",
     type: "Günlük Ayakkabı",
     image: `${Shoe4}`,
