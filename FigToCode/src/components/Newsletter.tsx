@@ -10,7 +10,7 @@ export default function Newsletter() {
         </b>
       </p>
       <form>
-        <div>
+        <div style={{display: 'flex'}}>
           <input name='Email' placeholder="Email address" className="Email" required type="email"></input>
           <button type="submit">GÖNDER</button>
         </div>

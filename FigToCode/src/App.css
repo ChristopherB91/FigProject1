@@ -207,6 +207,10 @@ footer{
   font-size: x-large;
 }
 
+a, a:visited{
+  color: #555B6A;
+}
+
 @media screen and (max-width: 1200px) {
   .PopImg1{
     padding-right: 0px;
@@ -214,10 +218,6 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-  .Email{
-    width: 350px;
-  }
-
   #FormTxt{
     font-size: large;
   }

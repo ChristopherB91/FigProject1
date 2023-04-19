@@ -40,23 +40,28 @@ let End: Credits[] = [
 
 export default function Footer() {
   return (
-    <footer>
-      {End.map((ends) => {
-        return (
-          <div>
-            <b className="end">{ends.Heading}</b>
-            <div className="Info">
-              <p>{ends.Info1}</p>
-              <p>{ends.Info2}</p>
-              <p>{ends.Info3}</p>
-              <p>{ends.Info4}</p>
+    <div>
+      <footer>
+        {End.map((ends) => {
+          return (
+            <div>
+              <b className="end">{ends.Heading}</b>
+              <div className="Info">
+                <p>{ends.Info1}</p>
+                <p>{ends.Info2}</p>
+                <p>{ends.Info3}</p>
+                <p>{ends.Info4}</p>
+              </div>
             </div>
-          </div>
-        );
-      })}
-      <div className="">
-        <hr />
-      </div>
-    </footer>
+          );
+        })}
+      </footer>
+      <hr />
+      <p>
+        <a target='_blank' href="https://www.figma.com/file/QkW4dDnnwtnUfM1IubMBZ0/E-commerce-Theme-(Community)?node-id=0%3A1&t=7gjhdiAswBRb2sWK-1">
+          Link to the figma design I broguht to development
+        </a>
+      </p>
+    </div>
   );
 }
