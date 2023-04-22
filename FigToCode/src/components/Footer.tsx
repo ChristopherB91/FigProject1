@@ -58,7 +58,10 @@ export default function Footer() {
       </footer>
       <hr />
       <p>
-        <a target='_blank' href="https://www.figma.com/file/QkW4dDnnwtnUfM1IubMBZ0/E-commerce-Theme-(Community)?node-id=0%3A1&t=7gjhdiAswBRb2sWK-1">
+        <a
+          target="_blank"
+          href="https://www.figma.com/file/QkW4dDnnwtnUfM1IubMBZ0/E-commerce-Theme-(Community)?node-id=0%3A1&t=7gjhdiAswBRb2sWK-1"
+        >
           Link to the figma design I broguht to development
         </a>
       </p>

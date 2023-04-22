@@ -4,14 +4,20 @@ export default function Newsletter() {
   return (
     <div className="News">
       <p>
-        <b id='FormTxt'>
+        <b id="FormTxt">
           ÜYE OL VE HEMEN <br />
           %35 İNDİRİM KAZAN!
         </b>
       </p>
       <form>
-        <div style={{display: 'flex'}}>
-          <input name='Email' placeholder="Email address" className="Email" required type="email"></input>
+        <div style={{ display: "flex" }}>
+          <input
+            name="Email"
+            placeholder="Email address"
+            className="Email"
+            required
+            type="email"
+          ></input>
           <button type="submit">GÖNDER</button>
         </div>
         <div>

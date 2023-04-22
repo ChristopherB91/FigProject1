@@ -8,8 +8,8 @@ function Popular() {
       <p>Tüm Spor Ayakkabılarında Aradığın Tarz</p>
       <p>Sadece Burada.</p>
       <div>
-        <img src={Pop1} alt="Picture 1" className="PopImg1"/>
-        <img src={Pop2} alt="Picture 2" className="PopImg2"/>
+        <img src={Pop1} alt="Picture 1" className="PopImg1" />
+        <img src={Pop2} alt="Picture 2" className="PopImg2" />
       </div>
     </b>
   );

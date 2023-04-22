@@ -1,6 +1,6 @@
-import Account from '../assets/Account-Icon.svg'
-import Cart from '../assets/Cart-Icon.svg'
-import Search from '../assets/Search-Icon.svg'
+import Account from "../assets/Account-Icon.svg";
+import Cart from "../assets/Cart-Icon.svg";
+import Search from "../assets/Search-Icon.svg";
 import "../App.css";
 
 function Header() {
@@ -25,15 +25,9 @@ function Header() {
         </b>
       </nav>
       <b className="container">
-        <p>
-          EN GÜZEL SPOR AYAKKABILAR
-        </p>
-        <p>
-          SHOP'DA!
-        </p>
-        <button>
-          ALIŞVERİŞE BAŞLA
-        </button>
+        <p>EN GÜZEL SPOR AYAKKABILAR</p>
+        <p>SHOP'DA!</p>
+        <button>ALIŞVERİŞE BAŞLA</button>
       </b>
     </header>
   );
